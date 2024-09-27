@@ -16,7 +16,7 @@ app.get("/", (req, res) => {
   });
 });
 
-// This function is called whenever our React app makes a POST request to this endpoint.
+// This function is called whenever our React app makes a POST request to this endpoints.
 app.post("/payments/create", async (req, res) => {
   const total = req.query.total;
   if (total > 0) {
