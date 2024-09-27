@@ -12,7 +12,7 @@ app.use(express.json());
 
 app.get("/", (req, res) => {
   res.status(200).json({
-    message: "Sucessful got request",
+    message: "Sucessful got request to Amazon API",
   });
 });
 
